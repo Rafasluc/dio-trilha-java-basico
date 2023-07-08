@@ -4,9 +4,7 @@ public class ContaTerminal {
     public static void main(String[] args) throws Exception {
        //TODO:Conchecer e importar a classe Scanner
        Scanner sc1 = new Scanner(System.in);
-       Scanner sc2 = new Scanner(System.in);
-       Scanner sc3 = new Scanner(System.in);
-       Scanner sc4 = new Scanner(System.in);
+
        
        //Exibir mensagens para o  usuário
 
@@ -14,13 +12,13 @@ public class ContaTerminal {
         String nome =  sc1.nextLine();
 
         System.out.println("Por favor, digite a sua agência !");
-        String agencia =  sc2.nextLine();
+        String agencia =  sc1.nextLine();
 
         System.out.println("Por favor, digite o número da Sua conta !");
-        int conta =  sc3.nextInt();
+        int conta =  sc1.nextInt();
 
         System.out.println("Por favor, digite o seu Saldo !");
-        Double saldo =  sc4.nextDouble();
+        Double saldo =  sc1.nextDouble();
 
        //Obter pela classe Scanner os valores digitados no terminal
 
